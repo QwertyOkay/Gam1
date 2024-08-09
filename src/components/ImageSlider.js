@@ -38,7 +38,7 @@ const ImageSlider = ({ images }) => {
       slider.removeEventListener('mouseup', stopDrag);
       slider.removeEventListener('mouseleave', stopDrag);
     };
-  }, [isDragging]);
+  },);
 
   return (
     <div ref={sliderRef} className={styles.slider} onMouseDown={startDrag}>

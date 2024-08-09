@@ -1,8 +1,7 @@
 import React, {useEffect} from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
-import Hero from './Hero';
 import CookieBar from './CookieBar';
 import { useSite } from '../context/SiteContext';
 

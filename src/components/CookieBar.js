@@ -23,8 +23,8 @@ const CookieBar = () => {
     isVisible && (
       <div className={styles.cookieBar}>
         <img src={cookieImage} alt="Cookie" className={styles.cookieImage} />
-        <p>This website uses cookies. Press the button to confirm you agree to this. <Link to="/privacy">Learn more</Link></p>
-        <button onClick={handleConfirm} className={styles.confirmButton}>Confirm</button>
+        <p>Bu web sitesi çerezleri kullanır. Bunu kabul ettiğinizi onaylamak için düğmeye basın. <Link to="/privacy">Daha fazla bilgi edin</Link></p>
+        <button onClick={handleConfirm} className={styles.confirmButton}>Onaylamak</button>
       </div>
     )
   );
