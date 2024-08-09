@@ -26,7 +26,11 @@ const Footer = () => {
             <img src={social.image} alt={`Sosyal ikon ${social.id}`} />
           </a>
         ))}
+        
       </div>
+      <Link to="/about" className={styles.about}>
+          Hakkımızda
+        </Link>
       <div className={styles.footerCopyright}>
         {siteName} &copy; {currentYear} <br/> Tüm hakları saklıdır.
       </div>

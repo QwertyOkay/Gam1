@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap: 15px;
+  color: #fff;
+  background-image: url("../assets/BackgroundAbout.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.logo {
+  background-image: url("../assets/about.png");
+  background-size: 196px 71px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 150px;
+  width: 200px;
+}
+
+.heading {
+  font-size: 28px; /* Adjust size as needed */
+  margin: 20px 0;
+  /* padding: 10px 15px; */
+}
+
+.subheading {
+  font-size: 36px; /* Adjust size as needed */
+  margin: 0px;
+}
+
+.bonusAmount {
+  font-size: 36px; /* Adjust size as needed */
+  margin: 0px;
+  font-size: 60px; /* Adjusted to be more prominent */
+  color: #d51212; /* Bright red color for the amount */
+  font-weight: 900; /* Extra bold to mimic the heavy weight */
+  text-shadow: 2px 2px 8px rgb(255 222 222); /* margin-bottom: 10px; */
+}
+.freeSpins {
+  font-size: 44px; /* Proportionally smaller than the main bonus amount */
+  color: #ffff00; /* Vibrant yellow for visibility and emphasis */
+  font-weight: 900; /* Keeping it bold */
+  text-shadow: 2px 2px 3px rgb(4 207 166);
+  margin: 0px;
+}
+
+.button {
+  padding: 10px 30px;
+  font-size: 24px; /* Adjust size as needed */
+  color: #fff;
+  background-color: #f00; /* Change to match your color scheme */
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #c00; /* Darker shade for hover state */
+}
+
+.skewedBlock {
+  transform: skew(-20deg); /* Adjust the angle as needed */
+  background: #f00; /* Red background, adjust the color as needed */
+  color: white; /* Text color */
+  text-align: center; /* Centering text */
+  padding: 0 15px;
+}
+
+/* To counter-skew the content inside so it appears normal */
+.skewedBlock > * {
+  transform: skew(20deg); /* Reverse skew angle */
+}

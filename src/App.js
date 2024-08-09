@@ -8,6 +8,7 @@ import Delivery from './pages/Delivery';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import Return from './pages/Return';
+import About from './pages/About';
 import ScrollToTop from './components/ScrollToTop'; 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="terms" element={<Terms />} />
           <Route path="return" element={<Return />} />
         </Route>
+        <Route path="about" element={<About />} />
       </Routes>
     </Router>
   );

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Modal from './Modal';
 import styles from './SubscriptionForm.module.css';
+// import { Link } from 'react-router-dom';
+
 
 const SubscriptionForm = () => {
   const [email, setEmail] = useState('');

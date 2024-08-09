@@ -26,6 +26,7 @@
 
 .logo {
   max-height: 11vh; /* Ensure the image height is constrained */
+  border-radius: 5px;
   width: auto;
   cursor: pointer;
   object-fit: contain;
