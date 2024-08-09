@@ -1,0 +1,36 @@
+:root {
+  /*general*/
+  --background-color: #fff;
+  --header-color: #ea4c56;
+  --text-light-color: #ffffff;
+  --text-dark-color: #5a5555;
+  --font-family: "Roboto", sans-serif;
+  /*buttons*/
+  --button-primary-text-color: #ffffff;
+  --button-secondary-text-color: #ffffff;
+  --button-primary-background-color: #ff0000;
+  --button-secondary-background-color: #ff0000;
+  --button-primary-hover-background-color: #ffee00;
+  --button-secondary-hover-background-color: #ffee00;
+  --button-primary-hover-text-color: #000;
+  --button-secondary-hover-text-color: #000;
+  --button-font-weight: 550;
+  --button-border-radius: 5px;
+  /*placeholder*/
+  --placeholder-color: #999;
+  /*product badge*/
+  --badge-background-color: #ffee00;
+  --badge-text-color: #000;
+  --badge-border-radius: 3px;
+  --badge-font-weight: 550;
+  /*footer*/
+  --footer-background-color: #000;
+  --footer-link-color: #ffffff;
+  --footer-copy-color: #fcffde;
+  /*cookies*/
+  --cookies-background-color: #fff;
+  --cookies-text-color: #000;
+  --cookies-link-color: #ff0000;
+  --cookies-copy-color: #000;
+  --cookies-link-font-weight: 550;
+}

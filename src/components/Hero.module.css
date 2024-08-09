@@ -1,0 +1,73 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.slogan {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.orderButton {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #fd0639;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.orderButton:hover {
+  background-color: #ffee00;
+  color: black;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: left;
+  }
+
+  .slogan,
+  .description {
+    margin-right: 2rem;
+  }
+}

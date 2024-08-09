@@ -1,0 +1,36 @@
+.slider {
+    display: flex;
+    overflow-x: scroll;
+    cursor: grab;
+    user-select: none;
+    height: 80%;
+    width: 100%;
+  }
+  
+  .slider:active {
+    cursor: grabbing;
+  }
+  
+  .imageContainer {
+    min-width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .slider::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+  .slider::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+  }
+  
+  .slider::-webkit-scrollbar-thumb {
+    background-color: #fff;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #fff;  /* creates padding around scroll thumb */
+  }
